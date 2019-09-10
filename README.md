@@ -1,3 +1,7 @@
+#Max/MSP Abstractions
+
+This repository is a collection of random abstractions for Max and Max/MSP. 
+
 ## mspFaderConverter
 Convenience abstraction for Max/MSP to convert a slider into a fader.
 

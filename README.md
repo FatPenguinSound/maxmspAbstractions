@@ -1,11 +1,11 @@
-#Max/MSP Abstractions
+# Max/MSP Abstractions
 
 This repository is a collection of random abstractions for Max and Max/MSP. 
 
 ## Distance Calculator
 This is a pretty easy one to make yourself, but hey...
 
-It takes in two sets of coordinates (x, y, z) and calculates the distance between them. Simple and easy. This was done using normal Max objects. I have a Gen version that I'll probably upload at some point.
+This is GenDSP distance calculator. Four inlets -- x1 y1 x2 y2. Outlet is a float. If you need this at signal rate, it's pretty easy to convert.
 
 ## DBAP
 This set of files implements Distance Based Amplitude panning. It would be super-nice if the control-rate Gen would allow the manipulation of lists... maybe someday.
@@ -33,7 +33,7 @@ This abstraction calculates the k coeff for DBAP. There is some additional logic
 This abstraction calculates the gain scalars for output.
 
 ### distanceCalculator
-Same patch as in the top-level version.
+Calculates distance in three dimensions.
 
 ## mspFaderConverter
 Convenience abstraction for Max/MSP to convert a slider into a fader.

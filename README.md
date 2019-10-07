@@ -1,6 +1,6 @@
 # Max/MSP Abstractions
 
-This repository is a collection of random abstractions for Max and Max/MSP. 
+This repository is a collection of random abstractions for Max and Max/MSP. Feel free to drop me a message if something's not working or if you have any questions. I'm also happy to help design things.
 
 ## Distance Calculator
 This is a pretty easy one to make yourself, but hey...
